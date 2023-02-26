@@ -1,27 +1,27 @@
 // @ts-ignore
-import WalletConnectLogo from '../logos/walletconnect-circle.svg';
+const WalletConnectLogo = 'assets/web3-modal-logos/walletconnect-circle.svg';
 // @ts-ignore
-import PortisLogo from '../logos/portis.svg';
+const PortisLogo = 'assets/web3-modal-logos/portis.svg';
 // @ts-ignore
-import SquarelinkLogo from '../logos/squarelink.svg';
+const SquarelinkLogo = 'assets/web3-modal-logos/squarelink.svg';
 // @ts-ignore
-import FortmaticLogo from '../logos/fortmatic.svg';
+const FortmaticLogo = 'assets/web3-modal-logos/fortmatic.svg';
 // @ts-ignore
-import ArkaneLogo from '../logos/arkane.svg';
+const ArkaneLogo = 'assets/web3-modal-logos/arkane.svg';
 // @ts-ignore
-import TorusLogo from '../logos/torus.svg';
+const TorusLogo = 'assets/web3-modal-logos/torus.svg';
 // @ts-ignore
-import AuthereumLogo from '../logos/authereum.svg';
+const AuthereumLogo = 'assets/web3-modal-logos/authereum.svg';
 // @ts-ignore
-import BurnerWalletLogo from '../logos/burnerwallet.png';
+const BurnerWalletLogo = 'assets/web3-modal-logos/burnerwallet.png';
 // @ts-ignore
-import UniLoginLogo from '../logos/unilogin.svg';
+const UniLoginLogo = 'assets/web3-modal-logos/unilogin.svg';
 // @ts-ignore
-import MEWwallet from '../logos/mewwallet.png';
+const MEWwallet = 'assets/web3-modal-logos/mewwallet.png';
 // @ts-ignore
-import DcentWalletLogo from '../logos/dcentwallet.png';
+const DcentWalletLogo = 'assets/web3-modal-logos/dcentwallet.png';
 // @ts-ignore
-import BitskiLogo from '../logos/bitski.svg';
+const BitskiLogo = 'assets/web3-modal-logos/bitski.svg';
 
 import { IProviderInfo } from '../../helpers';
 

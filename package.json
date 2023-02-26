@@ -1,13 +1,12 @@
 {
-  "name": "@dorgtech/web3modal-ts",
-  "version": "1.1.0",
+  "name": "angular-web3modal-ts",
+  "version": "1.1.1",
   "description": "Web3modal's provider layer abstraction for simple implementation of web3 wallet connections",
-  "homepage": "https://github.com/dOrgTech/Web3Modal-ts",
+  "homepage": "https://github.com/jguyet/Web3Modal-ts",
   "author": "dOrg",
   "license": "MIT",
   "scripts": {
-    "copy:logos": "copyfiles -u 3 ./src/providers/logos/** ./dist/providers/logos",
-    "build": "rm -rf dist && tsc && npm run copy:logos",
+    "build": "rm -rf dist && tsc",
     "package:release": "rm -rf ./package && mkdir ./package && cp -r ./dist/ ./package/dist && cp README.md package.json ./package",
     "release": "npm run build && npm run package:release && npm publish ./package --access public"
   },

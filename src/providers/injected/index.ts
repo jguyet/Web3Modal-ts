@@ -1,29 +1,29 @@
 import { IProviderInfo } from '../../helpers';
 
 // @ts-ignore
-import Web3DefaultLogo from '../logos/web3-default.svg';
+const Web3DefaultLogo = 'assets/web3-modal-logos/web3-default.svg';
 // @ts-ignore
-import MetaMaskLogo from '../logos/metamask.svg';
+const MetaMaskLogo = 'assets/web3-modal-logos/metamask.svg';
 // @ts-ignore
-import SafeLogo from '../logos/safe.svg';
+const SafeLogo = 'assets/web3-modal-logos/safe.svg';
 // @ts-ignore
-import NiftyWalletLogo from '../logos/niftyWallet.png';
+const NiftyWalletLogo = 'assets/web3-modal-logos/niftyWallet.png';
 // @ts-ignore
-import TrustLogo from '../logos/trust.svg';
+const TrustLogo = 'assets/web3-modal-logos/trust.svg';
 // @ts-ignore
-import DapperLogo from '../logos/dapper.png';
+const DapperLogo = 'assets/web3-modal-logos/dapper.png';
 // @ts-ignore
-import CoinbaseLogo from '../logos/coinbase.svg';
+const CoinbaseLogo = 'assets/web3-modal-logos/coinbase.svg';
 // @ts-ignore
-import CipherLogo from '../logos/cipher.svg';
+const CipherLogo = 'assets/web3-modal-logos/cipher.svg';
 // @ts-ignore
-import imTokenLogo from '../logos/imtoken.svg';
+const imTokenLogo = 'assets/web3-modal-logos/imtoken.svg';
 // @ts-ignore
-import StatusLogo from '../logos/status.svg';
+const StatusLogo = 'assets/web3-modal-logos/status.svg';
 // @ts-ignore
-import TokenaryLogo from '../logos/tokenary.png';
+const TokenaryLogo = 'assets/web3-modal-logos/tokenary.png';
 // @ts-ignore
-import OperaLogo from '../logos/opera.svg';
+const OperaLogo = 'assets/web3-modal-logos/opera.svg';
 
 export const FALLBACK: IProviderInfo = {
   id: 'injected',
