@@ -40,15 +40,7 @@ export function checkInjectedProviders(): IInjectedProvidersMap {
 }
 
 export function verifyInjectedProvider(check: string): boolean {
-  return (window as any).ethereum
-    ? (window as any).ethereum[check] || ((window as any).web3 && (window as any).web3.currentProvider)
-      ? (window as any).web3
-        ? (window as any).web3.currentProvider[check]
-        : true
-      : false
-    : (window as any).web3 && (window as any).web3.currentProvider
-    ? (window as any).web3.currentProvider[check]
-    : false;
+  return (window as any).ethereum && (window as any).ethereum[check] ? true : false;
 }
 
 export function getInjectedProvider(): IProviderInfo | null {

@@ -3,12 +3,10 @@ const ConnectToInjected = async () => {
   if ((window as any).ethereum) {
     provider = (window as any).ethereum;
     try {
-      await (window as any).ethereum.enable();
+      await (window as any).ethereum.request({ method: 'eth_requestAccounts' });
     } catch (error) {
       throw new Error('User Rejected');
     }
-  } else if ((window as any).web3) {
-    provider = (window as any).web3.currentProvider;
   } else {
     throw new Error('No Web3 Provider found');
   }
